@@ -1,207 +1,872 @@
-_prevClass
-: 
-"title-section"
-accessKey
-: 
-""
-align
-: 
-""
-attributeStyleMap
-: 
-StylePropertyMap {size: 0}
-attributes
-: 
-NamedNodeMap {0: class, class: class, length: 1}
-autocapitalize
-: 
-""
-autofocus
-: 
-false
-baseURI
-: 
-"https://bpexch.net/Common/BetProGames?GameId=9040"
-childElementCount
-: 
-3
-childNodes
-: 
-NodeList(5) [div.lobby-container, text, div.btn-logo-ctn, text, div.exposure-search-ctn]
-children
-: 
-HTMLCollection(3) [div.lobby-container, div.btn-logo-ctn, div.exposure-search-ctn]
-classList
-: 
-DOMTokenList ['title-section', value: 'title-section']
-className
-: 
-"title-section"
-clientHeight
-: 
-60
-clientLeft
-: 
-0
-clientTop
-: 
-0
-clientWidth
-: 
-915
-contentEditable
-: 
-"inherit"
-currentCSSZoom
-: 
-1
-dataset
-: 
-DOMStringMap {}
-dir
-: 
-""
-draggable
-: 
-false
-elementTiming
-: 
-""
-enterKeyHint
-: 
-""
-firstChild
-: 
-div.lobby-container
-firstElementChild
-: 
-div.lobby-container
-hidden
-: 
-false
-id
-: 
-""
-inert
-: 
-false
-innerHTML
-: 
-"<div class=\"lobby-container\"><div onclick=\"toggleMenu()\" class=\"menu-btn\">☰</div> <a href=\"/Common/BetProGames\" class=\"nav-link\" style=\"text-decoration: none;\"><button class=\"lobby-btn\"><img src=\"/img/v2/lobby-icon.svg\" alt=\"lobby-icon\"> <p class=\"lobby-name\">Lobby</p></button></a></div> <div class=\"btn-logo-ctn\"><img src=\"/img/tpslogo.png\" alt=\"royal-logo\" class=\"logo\"></div> <div class=\"exposure-search-ctn\"><div class=\"exposure-balance-ctn\"><img src=\"/img/v2/exposure-icon.svg\" alt=\"exposure-icon\" class=\"exp-icon\"> <div class=\"exp-bal\"><div class=\"balance-ctn\"><div class=\"designation\"><span class=\"wallet-balance\">B: Rs. 8</span> <span class=\"wallet-exposure\"> | L: 0</span></div></div></div></div></div>"
-innerText
-: 
-"☰\n\nLobby\n\nB: Rs. 8 | L: 0"
-inputMode
-: 
-""
-isConnected
-: 
-true
-isContentEditable
-: 
-false
-lang
-: 
-""
-lastChild
-: 
-div.exposure-search-ctn
-lastElementChild
-: 
-div.exposure-search-ctn
-localName
-: 
-"div"
-namespaceURI
-: 
-"http://www.w3.org/1999/xhtml"
-nextElementSibling
-: 
-div#Excardbody.card-body.mainexcard
-nextSibling
-: 
-text
-nodeName
-: 
-"DIV"
-nodeType
-: 
-1
-nonce
-: 
-""
-offsetHeight
-: 
-60
-offsetLeft
-: 
-0
-offsetParent
-: 
-div#ExgamesDiv.card.ExMainCardbundle.lobby-ctn.BPGmaindiv
-offsetTop
-: 
-0
-offsetWidth
-: 
-915
-outerHTML
-: 
-"<div class=\"title-section\"><div class=\"lobby-container\"><div onclick=\"toggleMenu()\" class=\"menu-btn\">☰</div> <a href=\"/Common/BetProGames\" class=\"nav-link\" style=\"text-decoration: none;\"><button class=\"lobby-btn\"><img src=\"/img/v2/lobby-icon.svg\" alt=\"lobby-icon\"> <p class=\"lobby-name\">Lobby</p></button></a></div> <div class=\"btn-logo-ctn\"><img src=\"/img/tpslogo.png\" alt=\"royal-logo\" class=\"logo\"></div> <div class=\"exposure-search-ctn\"><div class=\"exposure-balance-ctn\"><img src=\"/img/v2/exposure-icon.svg\" alt=\"exposure-icon\" class=\"exp-icon\"> <div class=\"exp-bal\"><div class=\"balance-ctn\"><div class=\"designation\"><span class=\"wallet-balance\">B: Rs. 8</span> <span class=\"wallet-exposure\"> | L: 0</span></div></div></div></div></div></div>"
-outerText
-: 
-"☰\n\nLobby\n\nB: Rs. 8 | L: 0"
-ownerDocument
-: 
-document
-parentElement
-: 
-div#ExgamesDiv.card.ExMainCardbundle.lobby-ctn.BPGmaindiv
-parentNode
-: 
-div#ExgamesDiv.card.ExMainCardbundle.lobby-ctn.BPGmaindiv
-part
-: 
-DOMTokenList [value: '']
-scrollHeight
-: 
-60
-scrollLeft
-: 
-0
-scrollTop
-: 
-0
-scrollWidth
-: 
-915
-slot
-: 
-""
-spellcheck
-: 
-true
-style
-: 
-CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}
-tabIndex
-: 
--1
-tagName
-: 
-"DIV"
-textContent
-: 
-"☰  Lobby   B: Rs. 8  | L: 0"
-title
-: 
-""
-translate
-: 
-true
-virtualKeyboardPolicy
-: 
-""
-writingSuggestions
-: 
-"true"
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sports Trading Platform">
+    <meta name="keyword" content="sports trading, bet, betfair">
+    <meta name="robots" content="noindex" />
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/dist/lo2.min.css?91800" />
+    <link rel="stylesheet" href="/css/tempusdominus-bootstrap-4.min.css" />
+    <link href="/css/BetPro-style.css?91800" rel="stylesheet" />
+
+    <title>TeenPatti Studio | BetPro</title>
+
+    <script>
+        const uwsUrl = "https://orders-ws3.mgs11.com/usershub";
+        const casinoUrl = "https://casino-ws.mgs11.com/signalr";
+    </script>
+    <script src="/js/vue.min.js"></script>
+    <script src="/js/vuex.js"></script>
+    <script src="/js/site.min.js?91800"></script>
+
+    <style>
+        .bodyheight {
+            height: 90vh;
+        }
+
+        @media screen and (max-width: 480px) {
+            .bodyheight{
+                height:90vh;
+            }
+        }
+
+        .bg-dream {
+            background-image: url(/img/dreambg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .iframetemplate {
+            display: block; /* iframes are inline by default */
+            background: #000;
+            border: none; /* Reset default border */
+            height: 100%; /* Viewport-relative units */
+            width: 100%;
+            margin: 0px;
+        }
+
+        .blink_me {
+            animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        .casinoimp {
+            animation: casinoimpblinker 1s linear infinite;
+        }
+
+        @Keyframes casinoimpblinker {
+            25% {
+                -webkit-transform: scale(1.10);
+                -ms-transform: scale(1.10);
+                transform: scale(1.10);
+            }
+
+            50% {
+                -webkit-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                transform: scale(1.15);
+            }
+
+            75% {
+                -webkit-transform: scale(1.10);
+                -ms-transform: scale(1.10);
+                transform: scale(1.10);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-dream d-flex flex-column">
+    <div class="main-page">
+        <div class="row no-gutters">
+            <div class="col-md">
+                <div class="header">
+                    <a href="/Common/Dashboard">
+                        <span class="green-logo-text">
+                            BetPro
+                        </span>
+                    </a>
+                   
+
+                </div>
+
+                <div class="bodyheight">
+                    
+<script>
+    var exgameid = '9040';
+    var ControllerName = 'BetProGames';
+
+    const stake1 = parseInt('2000');
+    const stake2 = parseInt('5000');
+    const stake3 = parseInt('10000');
+    const stake4 = parseInt('25000');
+</script>
+
+<link type="text/css" href="/css/Betprogames.css?91800" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="/css/v3/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+<link type="text/css" href="/fonts/SEGOEUI.TTF" rel="stylesheet">
+<link rel="stylesheet" href="/img/sprites/css/CardsSprite.css">
+
+<div class="wrapper">
+    <div class="sidebar">
+        <div class="sidebar-content">
+            <ul>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9030">
+                            <span class="item">Auto Roulette</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9022">
+                            <span class="item">Aviator</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="/Common/BetProGames?GameId=9040">
+                            <span class="item">AviatorX</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9023">
+                            <span class="item">BlastOff</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9100">
+                            <span class="item">CricketX</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9035">
+                            <span class="item">Dream Catcher</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9001">
+                            <span class="item">TeenPatti T20</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9005">
+                            <span class="item">TeenPatti ODI</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9006">
+                            <span class="item">Muflis TeenPatti</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9095">
+                            <span class="item">Rock Paper Scissor</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9021">
+                            <span class="item">Poker</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9015">
+                            <span class="item">Sic-Bo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9002">
+                            <span class="item">AndarBahar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9003">
+                            <span class="item">HiLo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9004">
+                            <span class="item">DragonTiger</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9007">
+                            <span class="item">7UpDown</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9008">
+                            <span class="item">Ammar Akbar Anthony</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9009">
+                            <span class="item">Super Over OneDay</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9011">
+                            <span class="item">Super Over T20</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9010">
+                            <span class="item">32 Cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9012">
+                            <span class="item">Bollywood Casino</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9016">
+                            <span class="item">Race To 17</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9014">
+                            <span class="item">Race-20-20</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9017">
+                            <span class="item">High Card</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9018">
+                            <span class="item">Casino War</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9019">
+                            <span class="item">Lucky 7</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9020">
+                            <span class="item">Center Card</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9045">
+                            <span class="item">TRIO</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9050">
+                            <span class="item">TRAP</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9055">
+                            <span class="item">One Card 20-20</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9060">
+                            <span class="item">One Card Meter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9065">
+                            <span class="item">Queen Race</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9070">
+                            <span class="item">Dus Ka Dum</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9075">
+                            <span class="item">Side Bet city</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9080">
+                            <span class="item">Lottery</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="/Common/BetProGames?GameId=9085">
+                            <span class="item">Heads &amp; Tails</span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<div class="card ExMainCardbundle lobby-ctn BPGmaindiv" id="ExgamesDiv">
+    <div class="title-section">
+        <div class="lobby-container">
+            <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+
+            <a class="nav-link" href="/Common/BetProGames" style="text-decoration: none;">
+                <button class="lobby-btn">
+                    <img src="/img/v2/lobby-icon.svg" alt="lobby-icon">
+                    <p class="lobby-name">Lobby</p>
+                </button>
+            </a>
+        </div>
+        <div class="btn-logo-ctn">
+            <img src="/img/tpslogo.png" alt="royal-logo" class="logo">
+        </div>
+        <div class="exposure-search-ctn">
+            <div class="exposure-balance-ctn">
+                <img src="/img/v2/exposure-icon.svg" alt="exposure-icon" class="exp-icon">
+                <div class="exp-bal">
+                    <div class="balance-ctn">
+                        <div class="designation">
+                            <span class="wallet-balance">B: -</span>
+                            <span class="wallet-exposure"> | L: - |</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div v-if="snapshot.channel == undefined" class="Aviatorloading">
+            <div class="Aviatorloading-centerImage">
+                    <img src="/img/aviatorstat.webp" alt="Centered Image" class="smooth-blink">
+            </div>
+        </div> 
+    <div class="card-body mainexcard" id="Excardbody" style="display:none;">
+        <div class="row">
+            <div class="col-lg-8 Exgamesbg" v-if="snapshot.channel !== undefined">
+                
+<div class="footer-divbpg border-gradient-footer border-gradient-purple-footer">
+    <div class="col-6  col-md-6 titlebarname">
+        <p style="margin-bottom:-6px; margin-top: 6px;">AviatorX</p>
+    </div>
+    <div class="col-6 col-md-6 inline-block Gameidcol">
+        <div class="btn-group btn-group-sm mr-2" role="group" aria-label="Second group">
+            <button type="button" id="Alltab" style="background-color:black;" class="tablink btn btn-primary bbactive" v-on:click="MarketTab('All')">Game</button>
+            <button type="button" id="RESULTStab" class="tablink btn btn-primary bbactive" v-on:click="MarketTab('RESULTS')">Results</button>
+            <button type="button" class="tablink btn btn-primary bbactive" v-on:click="ShowMarketRules(9040)">Rules</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+                <div id="All" class="tabcontent" style="display:contents;">
+                    <div class="left-content">
+                        <div class="cards-layout blackjack">
+
+                                
+<div class="cards-layout blackjack font-familyAVE" v-for="card in snapshot.channel.game.gameData">
+    <audio id="crashSound" src="/audio/crashedmusic.mp3"></audio>
+    <audio id="TpbgSound" src="/audio/aviatorbg.mp3" loop></audio>
+    <div class="scroll-containeraviator" style="max-width:100% !important;">
+        <div class="w-100 p-0">
+                <canvas id="animationCanvas"></canvas>
+                <img v-on:load="resizeCanvas();" id="planeGif" src="/img/Plane-gif.gif" alt="Animated Plane GIF" style="position: absolute; width: 10%; pointer-events: none; display: none;" />
+                <input v-on:click="playBGSoundWithRetry()" id="AvxSoundcontrol" type="checkbox" style="width:0px; margin-right:10px;" class="fa fa-volume-off fa-inverse sound-icon fa-2x" />
+            
+            <div class="Connectedclients mt-1" style="margin-left:30px;">
+                <i class="fa fa-user mr-1" aria-hidden="true" style='font-size:14px; color:white;'></i>
+                <b><span class="number" id="UsersCount">1</span></b>
+            </div>
+
+            <div style="float:inline-end; position:relative; z-index:1000;">
+                <i class="AVI-icon__signal-strength AVI-signal-0">
+                    <span class="AVI-bar-1"></span>
+                    <span class="AVI-bar-2"></span>
+                    <span class="AVI-bar-3"></span>
+                    <span class="AVI-bar-4"></span>
+                </i>
+            </div>
+        </div>
+        
+        <div class="overlayaviatorx" v-show="snapshot.channel.status == 1">
+            <div class="overlay-contentx">
+                <img src="/img/Loading fan.svg" alt="Rotating Image">
+                <span class="overlay-textaviatorx"><b>STARTING NEXT ROUND IN {{timeLeft}}</b></span>
+            </div>
+        </div>
+
+         <div class="font-familyAVE absoluteAve flexAve flex-colAve items-center drop-shadow-mdAve font-blackAve text-white-600Ave text-strokeAve tracking-wideAve w-100" v-bind:class="{ 'text-rose-600Ave' : snapshot.channel.status == 3 || snapshot.channel.status == 4 , 'AnimateOdds' : snapshot.channel.status == 3 || snapshot.channel.status == 4 }">
+            <span v-show="snapshot.channel.status == 3 || snapshot.channel.status == 4">FLEW AWAY!</span>
+            <div v-show="snapshot.channel.status !== 1" class="flexAve fontponts items-endAve gap-1Ave w-42" v-bind:class="{ 'text-strokeblackAve': snapshot.channel.status == 2 }">{{ displayPrice }}</div>
+        </div>
+    </div>
+    
+</div>
+                        </div>
+
+                        <center>
+                            <div class="footer-divbpg border-gradient-footer border-gradient-purple-footer">
+                                <div class="buttons-div">
+                                    <button class="video-button border-gradient-btn border-gradient-purple-btn" :class="getColorClass(result)" v-for="result in shortresults">
+                                        {{result}}
+                                    </button>
+                                </div>
+                                <div class="round-div">
+                                    <div class="label">Round ID:</div>
+                                    <div class="id">{{snapshot.channel.game.id}}</div>
+                                </div>
+                            </div>
+                        </center>
+
+<div class="Aviator-Main" v-for="MMarket in snapshot.channel.game.markets.market">
+    <div class="row m-0 p-0">
+        <!-- First Main Div -->
+        <div class="col-6 col-md-6 mb-4 p-1" v-for="Runner in betActions">
+            <div class="market-runners">
+                <div class="row mb-2">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <div class="AVEDI-input-group">
+                                <button type="button" v-on:click="DecrementSize(Runner.id, 1000)">
+                                    <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="AVE-svg-icon">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.75 20C5.75 19.8011 5.82902 19.6103 5.96967 19.4697C6.11032 19.329 6.30109 19.25 6.5 19.25H21.5C21.6989 19.25 21.8897 19.329 22.0303 19.4697C22.171 19.6103 22.25 19.8011 22.25 20C22.25 20.1989 22.171 20.3897 22.0303 20.5303C21.8897 20.671 21.6989 20.75 21.5 20.75H6.5C6.30109 20.75 6.11032 20.671 5.96967 20.5303C5.82902 20.3897 5.75 20.1989 5.75 20Z" fill="#F7F9FB"></path>
+                                    </svg>
+                                </button>
+                                <input class="AVEDI-input-field" type="number" min="1" max="1000000" v-model="Runner.betSize">
+                                <button type="button" v-on:click="IncrementSize(Runner.id, 1000)">
+                                    <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="AVE-svg-icon">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 11.75C14.1989 11.75 14.3897 11.829 14.5303 11.9697C14.671 12.1103 14.75 12.3011 14.75 12.5V19.25H21.5C21.6989 19.25 21.8897 19.329 22.0303 19.4697C22.171 19.6103 22.25 19.8011 22.25 20C22.25 20.1989 22.171 20.3897 22.0303 20.5303C21.8897 20.671 21.6989 20.75 21.5 20.75H14.75V27.5C14.75 27.6989 14.671 27.8897 14.5303 28.0303C14.3897 28.171 14.1989 28.25 14 28.25C13.8011 28.25 13.6103 28.171 13.4697 28.0303C13.329 27.8897 13.25 27.6989 13.25 27.5V20.75H6.5C6.30109 20.75 6.11032 20.671 5.96967 20.5303C5.82902 20.3897 5.75 20.1989 5.75 20C5.75 19.8011 5.82902 19.6103 5.96967 19.4697C6.11032 19.329 6.30109 19.25 6.5 19.25H13.25V12.5C13.25 12.3011 13.329 12.1103 13.4697 11.9697C13.6103 11.829 13.8011 11.75 14 11.75Z" fill="#F7F9FB"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-2 increamentalbtns">
+                    <div class="col-6 col-md-3 mb-2 mb-md-0 p-0">
+                        <button type="button" class="btn btn-lg btn-outline-light w-100 p-0" v-on:click="SetSize(Runner.id, 2000)">2000</button>
+                    </div>
+                    <div class="col-6 col-md-3 mb-2 mb-md-0 p-0">
+                        <button type="button" class="btn btn-lg btn-outline-light w-100 p-0" v-on:click="SetSize(Runner.id, 5000)">5000</button>
+                    </div>
+                    <div class="col-6 col-md-3 mb-2 mb-md-0 p-0">
+                        <button type="button" class="btn btn-lg btn-outline-light w-100 p-0" v-on:click="IncrementSize(Runner.id, 1000)">+1000</button>
+                    </div>
+                    <div class="col-6 col-md-3 mb-2 mb-md-0 p-0">
+                        <button type="button" class="btn btn-lg btn-outline-light w-100 p-0" v-on:click="IncrementSize(Runner.id, 5000)">+5000</button>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="btn-group w-100" role="group">
+                            <button type="button"
+                                    class="btn-lg"
+                                    v-show="Runner.visible"
+                                    v-bind:class="Runner.cssClasses"
+                                    v-on:click="BetAction(Runner.action, Runner.id)">
+                                <span class="shimmer-container">
+                                    <span class="shimmer"></span>
+                                </span>
+                                <span class="text-lg font-semibold text-slate-50">{{ Runner.title }}</span>
+                                
+                                <span v-show="Runner.betState === 3 && Runner.winloseamount > 0">&nbsp; ({{Runner.winloseamount | formatNew}})</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="mb-2" style="color:white; padding-top:5px;">
+                    <div class="col-12 p-0">
+                        <label class="switch">
+                            <input type="checkbox" v-model="Runner.autoBet">
+                            <span class="slider round"></span>
+                        </label>
+                        <label :for="'switch'+Runner.id">Auto Bet</label>
+                    </div>
+                    <div class="col-12 p-0 d-flex align-items-center">
+                        <label class="switch mr-2">
+                            <input type="checkbox" v-model="Runner.autoCashout">
+                            <span class="slider round"></span>
+                        </label>
+                        <label :for="'switch2'+Runner.id">Auto Cashout</label>
+                    </div>
+                   
+                    <div v-show="Runner.autoCashout" class="" style="border: 1px solid white; border-radius:10px; padding:5px;">
+                        <div class="form-group">
+                            <label>Cashout at</label>
+                            <div class="input-group">
+                                <div class="AVEDI-input-group">
+                                        <button type="button" v-on:mousedown="DecrementPriceCont(Runner.id, $event)"
+                                        v-on:mouseup="StopPriceIncrement()"
+                                        v-on:touchstart="DecrementPriceCont(Runner.id, $event)"
+                                        v-on:touchend="StopPriceIncrement()">
+                                            <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="AVE-svg-icon">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.75 20C5.75 19.8011 5.82902 19.6103 5.96967 19.4697C6.11032 19.329 6.30109 19.25 6.5 19.25H21.5C21.6989 19.25 21.8897 19.329 22.0303 19.4697C22.171 19.6103 22.25 19.8011 22.25 20C22.25 20.1989 22.171 20.3897 22.0303 20.5303C21.8897 20.671 21.6989 20.75 21.5 20.75H6.5C6.30109 20.75 6.11032 20.671 5.96967 20.5303C5.82902 20.3897 5.75 20.1989 5.75 20Z" fill="#F7F9FB"></path>
+                                            </svg>
+                                        </button>
+                                        <input class="AVEDI-input-field" type="number" min="1.10" max="100" step="0.01" v-model="Runner.autoCashoutPrice" v-on:input="validateInput(Runner)" v-on:blur="validateMinValue(Runner)">
+                                        <button type="button" v-on:mousedown="IncrementPriceCont(Runner.id, $event)"
+                                                v-on:mouseup="StopPriceIncrement()"
+                                                v-on:touchstart="IncrementPriceCont(Runner.id, $event)"
+                                                v-on:touchend="StopPriceIncrement()">
+                                                <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="AVE-svg-icon">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 11.75C14.1989 11.75 14.3897 11.829 14.5303 11.9697C14.671 12.1103 14.75 12.3011 14.75 12.5V19.25H21.5C21.6989 19.25 21.8897 19.329 22.0303 19.4697C22.171 19.6103 22.25 19.8011 22.25 20C22.25 20.1989 22.171 20.3897 22.0303 20.5303C21.8897 20.671 21.6989 20.75 21.5 20.75H14.75V27.5C14.75 27.6989 14.671 27.8897 14.5303 28.0303C14.3897 28.171 14.1989 28.25 14 28.25C13.8011 28.25 13.6103 28.171 13.4697 28.0303C13.329 27.8897 13.25 27.6989 13.25 27.5V20.75H6.5C6.30109 20.75 6.11032 20.671 5.96967 20.5303C5.82902 20.3897 5.75 20.1989 5.75 20C5.75 19.8011 5.82902 19.6103 5.96967 19.4697C6.11032 19.329 6.30109 19.25 6.5 19.25H13.25V12.5C13.25 12.3011 13.329 12.1103 13.4697 11.9697C13.6103 11.829 13.8011 11.75 14 11.75Z" fill="#F7F9FB"></path>
+                                                </svg>
+                                            </button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                        
+                    </div>
+                </div>
+                <div id="RESULTS" class="tabcontent" style="display:none;">
+                        <div class="cardAV">
+        <div class="card-headerAV">
+            Results for Last 50 Rounds
+        </div>
+        <div class="card-bodyAV">
+            <div class="rowAV">
+                <div v-for="(result, index) in results" :key="index" class="colAV">
+                        <div :class="['result-itemAV',result.text < 2 ? 'border-red' : (result.text > 10 ? 'border-golden' : 'border-normal')]">
+                            {{ result.text }}
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="right-content">
+                    <div>
+                        <div class="table-box-body">
+                            <div class="bets" id="betSlip" v-show="Order.render">
+                                <strong>Bet Slip <a target="_blank" style="color:white; float:right" class="button" href="/Customer/Profile">Edit Bet Sizes</a></strong>
+
+                                <div class="betting-table">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Bet for</th>
+                                                <th>Odds</th>
+                                                <th>Stake</th>
+                                                <th>Profit</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr v-bind:class="{ 'back': Order.side.toLowerCase() == 'b', 'lay': Order.side.toLowerCase() == 'l' }">
+                                                <td>{{ Order.runnerName }}</td>
+                                                <td width="10%">
+                                                    <div class="quantity">
+                                                        <input type="text" id="bet-price"
+                                                               v-model="Order.price"
+                                                               v-on:keyup.enter="PlaceOrder()" />
+                                                        <div class="quantity-nav">
+                                                            <div class="quantity-button quantity-up" v-on:click="PriceUp()">
+                                                                <span class="fa fa-caret-up" />
+                                                            </div>
+                                                            <div class="quantity-button quantity-down" v-on:click="PriceDown()">
+                                                                <span class="fa fa-caret-down" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td width="10%">
+                                                    <div class="stake">
+                                                        <input type="text"
+                                                               id="bet-size"
+                                                               v-model="Order.size"
+                                                               v-on:change="CalcPL()"
+                                                               v-on:keyup.enter="PlaceOrder()" />
+                                                    </div>
+                                                </td>
+                                                <td>{{ Order.profit }} / -{{ Order.liable }}</td>
+                                            </tr>
+                                            <tr v-bind:class="{ 'back': Order.side.toLowerCase() == 'b', 'lay': Order.side.toLowerCase() == 'l' }">
+                                                <td colspan="5">
+                                                    <table class="table">
+                                                        <tbody>
+                                                            <tr class="checknow">
+                                                                <td><span class="points" data-amount="2000" v-on:click="SetOrderSize(2000)">2,000</span></td>
+                                                                <td><span class="points" v-on:click="SetOrderSize(5000)">5,000</span></td>
+                                                                <td><span class="points" v-on:click="SetOrderSize(10000)">10,000</span></td>
+                                                                <td><span class="points" v-on:click="SetOrderSize(25000)">25,000</span></td>
+                                                            </tr>
+                                                            <tr class="checknow">
+                                                                <td><span class="points" v-on:click="IncreaseOrderSize(1000)">+ 1,000</span></td>
+                                                                <td><span class="points" v-on:click="IncreaseOrderSize(5000)">+ 5,000</span></td>
+                                                                <td><span class="points" v-on:click="IncreaseOrderSize(10000)">+ 10,000</span></td>
+                                                                <td><span class="points" v-on:click="IncreaseOrderSize(25000)">+ 25,000</span></td>
+                                                            </tr>
+                                                            <tr v-if="Order.error != ''">
+                                                                <td class="alert-danger pr-5" colspan="4">{{ Order.error }}</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <button class="align-left btn btn-danger" type="reset" v-on:click="CloseBetSlip()"><b>Close</b></button>
+                                                                </td>
+                                                                <td>
+                                                                    <button class="align-left btn btn-warning" type="reset" v-on:click="ClearBetSlip()"><b>Clear</b></button>
+                                                                </td>
+                                                                <td colspan="1"></td>
+                                                                <td>
+                                                                    <div class="btn btn-primary ld-over"
+                                                                         v-bind:class="{ 'running': Order.working }"
+                                                                         v-on:click="PlaceOrder()"
+                                                                         style="cursor: pointer;">
+                                                                        <b>Submit</b>
+                                                                        <div class="ld ld-ball ld-flip"></div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+
+                            <div class="modal fade" id="betSlipMobile" tabindex="-1" role="dialog" aria-labelledby="fancyPosition" aria-hidden="true">
+                                <div class="modal-dialog modal-md" role="document">
+                                    <div class="modal-content" v-bind:class="{ 'back': Order.side.toLowerCase() == 'b', 'lay': Order.side.toLowerCase() == 'l' }">
+                                        <div class="modal-body">
+                                            <table>
+                                                <tr>
+                                                    <td>&nbsp;</td>
+                                                    <th colspan="3">{{ Order.runnerName }}</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>ODDS</td>
+                                                    <td colspan="2">
+                                                        <div class="input-group mt-2">
+                                                            <div class="input-group-prepend">
+                                                                <button type="button" class="btn btn-outline-secondary" v-on:click="PriceDown()">
+                                                                    <strong>-</strong>
+                                                                </button>
+                                                            </div>
+                                                            <input type="number" id="bet-price"
+                                                                   class="form-control"
+                                                                   v-model="Order.price"
+                                                                   v-on:keyup.enter="PlaceOrder()"
+                                                                   v-on:keyup.up="PriceUp()"
+                                                                   v-on:keyup.down="PriceDown()"
+                                                                   step="0.01"
+                                                                   min="1.01"
+                                                                   max="1000" />
+                                                            <div class="input-group-append">
+                                                                <button class="btn btn-outline-secondary" type="button" v-on:click="PriceUp()">
+                                                                    <strong>+</strong>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Amount</td>
+                                                    <td colspan="2">
+                                                        <input type="number" id="bet-size-m" v-on:change="CalcPL()" class="form-control mt-2" v-model="Order.size">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="width: 25%">
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" data-amount="2000" v-on:click="SetOrderSize(2000)">
+                                                            2,000
+                                                        </button>
+                                                    </td>
+                                                    <td style="width: 25%">
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" v-on:click="SetOrderSize(5000)">
+                                                            5,000
+                                                        </button>
+                                                    </td>
+                                                    <td style="width: 25%">
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" v-on:click="SetOrderSize(10000)">
+                                                            10,000
+                                                        </button>
+                                                    </td>
+                                                    <td style="width: 25%">
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" v-on:click="SetOrderSize(25000)">
+                                                            25,000
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" v-on:click="IncreaseOrderSize(1000)">
+                                                            +1,000
+                                                        </button>
+                                                    </td>
+                                                    <td>
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" v-on:click="IncreaseOrderSize(5000)">
+                                                            +5,000
+                                                        </button>
+                                                    </td>
+                                                    <td>
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" v-on:click="IncreaseOrderSize(10000)">
+                                                            +10,000
+                                                        </button>
+                                                    </td>
+                                                    <td>
+                                                        <button style="touch-action:manipulation;" type="button" class="btn btn-secondary btn-block mt-2" v-on:click="IncreaseOrderSize(25000)">
+                                                            +25,000
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <button style="touch-action:manipulation;" type="button" data-dismiss="modal" class="btn btn-danger mt-2">
+                                                            Close
+                                                        </button>
+                                                    </td>
+                                                    <td colspan="2">
+                                                        <div class="btn btn-primary ld-over mt-2"
+                                                             v-bind:class="{ 'running': Order.working }"
+                                                             v-on:click="PlaceOrder()"
+                                                             style="cursor: pointer;">
+                                                            <b>Submit</b>
+                                                            <div class="ld ld-ball ld-flip"></div>
+                                                        </div>
+                                                        <span>{{ Order.profit }} / -{{ Order.liable }}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="Order.error !== '' && Order.error !== undefined">
+                                                    <td class="alert-danger pr-5" colspan="4">{{ Order.error }}</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                        <div>
+    <div class="bets">
+        <strong>
+            Lucky Players {{ AviatorLUckyPlayers.length }}
+            <img class="rounded disconnected" src="/img/reconnecting.gif" alt="dc" v-show="!isConnected" />
+            <span v-if="!isConnected">DISCONNECTED</span>
+        </strong>
+
+        <div class="betting-table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Size</th>
+                        <th>Price</th>
+                        <th>Profit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color:aliceblue;" v-for="order in AviatorLUckyPlayers">
+                        <td>{{ order.username }}</td>
+                        <td>{{ order.size | format}}</td>
+                        <td>{{ order.price === 0 ? '--' : order.price}}</td>
+                        <td style="text-align:left;">{{ order.winLose | formatempty }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" id="defaultBetSize" value="2000" />
+<input type="hidden" id="userCurrencyRate" value="1.0000" />
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Market Rules -->
+    <div class="modal fade" id="modalMarketRules" tabindex="-1" role="dialog" aria-labelledby="modalMarketRules" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Market Rules</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="market-rules-text" class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const token = getCookie('wexscktoken');
+        const sess = getCookie('wex3authtoken');
+        const reft = getCookie('wex3reftoken');
+        const CasSck = 1;
+    </script>
+
+    <script src="/js/signalr/dist/browser/signalr.js"></script>
+    
+    
+    
+        <script type="text/javascript" src="https://wurfl.io/wurfl.js"></script>
+        <script src="/js/cwsck.min.js?91800"></script>
+    
+
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        List = [];
+        function toggleMenu() {
+            event.preventDefault(); // prevent the default behavior of the button
+            var menu = document.querySelector('.sidebar');
+            menu.style.left = (menu.style.left === "0px") ? "-250px" : "0px";
+            var menuBtn = document.querySelector('.menu-btn');
+            if (menuBtn.innerHTML === '☰') {
+                menuBtn.innerHTML = '✖';
+            } else {
+                menuBtn.innerHTML = '☰';
+            }
+        }
+    </script>
+
+    
+    <script>
+        const signalRConnection = new UWS(uwsUrl, token, sess);
+        signalRConnection.connect();
+
+        $(document).ready(function () {
+            pollRefreshToken();
+        });
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"980ecf60cfad09e5","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.8.0","token":"412e616bee9c418bbf775c35ab07c6d0"}' crossorigin="anonymous"></script>
+</body>
+</html>
